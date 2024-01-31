@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* Program to determine if number is negative or positive */
+/***********************************************************************
+ * main - check the code
+ *
+ * Return: Always 0.
+ **/
 
 int main(void)
 {
