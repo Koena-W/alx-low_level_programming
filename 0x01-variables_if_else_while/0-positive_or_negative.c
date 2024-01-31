@@ -8,7 +8,7 @@
  * Return: Always 0.
  **/
 
-int main(void)
+int main(void) /* main function */
 {
 	int n;
 
