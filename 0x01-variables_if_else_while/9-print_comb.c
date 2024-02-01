@@ -1,0 +1,24 @@
+#include <stdio.h>
+/**
+ * main - my code goes here
+ *
+ * Code to print combinations
+ *
+ * Return: 0.
+ */
+int main(void)
+{
+	int n;
+
+	for (n = 0; n < 10; n++)
+	{
+		putchar('0' + n);
+		if (n < 9)
+		{
+			putchar(',');
+			putchar(32);
+		}
+	}
+	putchar('\n');
+	return (0);
+}
