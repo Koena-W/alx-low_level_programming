@@ -2,7 +2,7 @@
 /**
  * main - code goes there
  *
- * Code to print numbers from 0 to 10
+ * Code to print numbers from 0 to 9
  *
  * Return: 0.
  */
