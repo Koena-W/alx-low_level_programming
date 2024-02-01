@@ -7,7 +7,7 @@
  *
  * Code to determine the last digit
  *
- * Return 0.
+ * Return: always 0 (Success)
  */
 int main(void)
 {
