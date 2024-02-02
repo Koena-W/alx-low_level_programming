@@ -8,24 +8,29 @@
  */
 int main(void)
 {
-	int i, n, m;
+	int i, n, j, m;
 
-	for (m = 0; m != 8; m++)
+	for (i = 0; i < 10; i++)
 	{
-		for (n = m + 1; n != 9; n++)
+		for (n = 0; n <= 10; n++)
 		{
-			i = n + 1;
-			do {
-				putchar('0' + m);
-				putchar('0' + n);
-				putchar('0' + i);
-				if (m != 7)
+			for (j = 0; j < 10; j++)
+			{
+				for (m = 0; m < 10; m++)
 				{
-					putchar(',');
+					putchar('0' + i);
+					putchar('0' + n);
 					putchar(' ');
+					putchar('0' + j);
+					putchar('0' + m);
+					if (!(i == 9 && n == 8))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					m++;
 				}
-				i++;
-			} while (i != 10);
+			}
 		}
 	}
 	putchar('\n');
